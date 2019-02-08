@@ -20,7 +20,7 @@ Vue.use(VueTabbing, { /* options */ })
 
 | Key       | Type   | Default   | Description                                                                                                            |
 | :-------- | :----- | :-------- | :--------------------------------------------------------------------------------------------------------------------- |
-| className | String | "tabbing" | Class name to add to the root `html` node when the user is tabbing.<br>Pass `false` to prevent a class from being set. |
+| className | String | "tabbing" | Class name to add to the root `html` node when the user navigating using the tab key.<br>Pass `false` to prevent a class from being set. |
 
 ## Usage
 
