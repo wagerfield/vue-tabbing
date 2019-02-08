@@ -1,0 +1,40 @@
+{
+  "name": "vue-tabbing",
+  "version": "0.0.0",
+  "description": "Tabbing navigation utility for Vue.",
+  "author": "Matthew Wagerfield <matthew@wagerfield.com>",
+  "homepage": "https://github.com/wagerfield/vue-tabbing#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wagerfield/vue-tabbing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wagerfield/vue-tabbing/issues"
+  },
+  "keywords": [
+    "vue",
+    "plugin",
+    "tabbing",
+    "navigation"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "husky": "^1.3.1",
+    "jest": "^24.1.0",
+    "vue": "^2.6.3",
+    "vue-template-compiler": "^2.6.3"
+  }
+}
