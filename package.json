@@ -1,6 +1,6 @@
 {
   "name": "vue-tabbing",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Tabbing navigation utility for Vue.",
   "author": "Matthew Wagerfield <matthew@wagerfield.com>",
   "homepage": "https://github.com/wagerfield/vue-tabbing#readme",
