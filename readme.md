@@ -13,10 +13,10 @@ This is useful for conditionally showing/hiding/styling content when the user is
 import Vue from "vue"
 import VueTabbing from "vue-tabbing"
 
-Vue.use(VueTabbing, {
-  className: "tabbing" // Default
-})
+Vue.use(VueTabbing, { /* options */ })
 ```
+
+## Options
 
 | Key       | Type   | Default   | Description                                                                                                            |
 | :-------- | :----- | :-------- | :--------------------------------------------------------------------------------------------------------------------- |
