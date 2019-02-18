@@ -3,7 +3,7 @@
 1. Adds a reactive `$tabbing` boolean property to [Vue instances][vue-instances].
 2. Adds a `tabbing` class to the root `html` node while the user is tabbing.
 
-This is useful for conditionally showing/hiding/styling content when the user is navigating with the tab key.
+This is useful for conditionally rendering or styling content when the user is navigating with the tab key. Think accessibility.
 
     yarn add vue-tabbing
 
